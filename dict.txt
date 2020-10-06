@@ -1,0 +1,9 @@
+Original_list=[23,57,20,23,35,57,35,57,101]
+
+iter = {}
+for item in Original_list:
+    if (item in iter):
+        iter[item] += 1
+    else:
+        iter[item] = 1
+print(iter);
